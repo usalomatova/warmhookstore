@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+        <meta charset="UTF-8">
+        <title>warm hook store</title>
+        <link rel="stylesheet" href="table.css" />
+        <script language = "JavaScript">
+            var bigsize = "600"; //Размер большой картинки
+            var smallsize = "100"; //Размер маленькой картинки
+            function changeSizeImage(im) {
+                if(im.height == bigsize) im.height = smallsize;
+                else im.height = bigsize;
+            }
+        </script>
+   </head>
+   <body>
+        <div class="headb">
+            <div class="zagbg">
+                <h1><a href="index.html">крючком с теплом</a></h1>
+                <h2><i>магазин вязаных игрушек</i></h2>
+            </div>
+        </div>
+        <div>
+            <nav class="navi">
+                <ul class="mul">
+                    <li class="mlist"><a href="index.html">о создателе</a></li>
+                    <li class="mlist"><a href="catalog.html">каталог</a></li>
+                    <li class="mlist here"><a href="table.html">бренд</a></li></a></li>
+                    <li class="mlist"><a href="form.html">работа</a></li>
+                    <li class="mlist"><a href="zadacha.html">алгоритмы</a></li>
+                    <li class="mlist"><a href="dom.html">паспорт</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="maincont">
+            <div class="mainblock">
+                <table class="t1">
+                    <tr class="row-header">
+                        <td colspan="3" class="header-cell">
+                        <div class="title-area">
+                            <img class="logo" alt="logo" height="100" src="img/logo.png" onclick="changeSizeImage(this)"/>
+                            <p><a href="https://t.me/warmhook">крючком с теплом</a></p>
+                        </div>
+                        </td>
+                        <td class="aside-cell" rowspan="3">
+                        <div class="aside-inner">
+                            <p>бренд был основан в начале 2023 года</p>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr class="row-main-top">
+                        <td class="menu-cell" rowspan="2">
+                        <nav class="menu">
+                            <ol>
+                                <li>игрушки</li>
+                                <li>брелоки</li>
+                                    <ul>
+                                        <li>животные</li>
+                                        <li>растения</li>
+                                    </ul>
+                                <li>закладки</li>
+                            </ol>
+                        </nav>
+                        </td>
+                        <td class="main-cell">
+                        <div class="main-image">
+                            
+                        </div>
+                        </td>
+                        <td>
+                            <div class="main-info"><p>крючком с теплом - </p><p>это про уют, тепло и любовь,</p><p>которые дарят наши игрушки</p></div>
+                        </td>
+                    </tr>
+                    <tr class="row-footer">
+                        <td class="footer-cell" colspan="2">
+                        <div class="feedback">
+                            <p>обратная связь в наших соцсетях</p><p class="copy">©warmhook store</p>
+                        </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+   </body> 
+</html>

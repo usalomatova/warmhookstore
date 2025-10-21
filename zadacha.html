@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Проверка объёма ёмкостей</title>
+  <link rel="stylesheet" href="zadacha.css">
+</head>
+<body>
+    <h1><a href="fedun.html">крючком с теплом</a></h1>
+    <h2><i>магазин вязаных игрушек</i></h2>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="fedun.html">о создателе</a></li>
+                <li><a href="catalog.html">каталог</a></li>
+                <li><a href="table.html">бренд</a></li>
+                <li><a href="form.html">работа</a></li>
+                <li class="here"><a href="zadacha.html">алгоритмы</a></li>
+                <li><a href="dom.html">паспорт</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="maincont">
+            <div class="container">
+                <h1>Проверка, в какую ёмкость поместится жидкость</h1>
+                <div class="input-group">
+                    <label>Ребро куба (A):</label>
+                    <input type="number" id="a" placeholder="Введите A">
+                </div>
+                <div class="input-group">
+                    <label>Высота цилиндра (H):</label>
+                    <input type="number" id="h" placeholder="Введите H">
+                </div>
+                <div class="input-group">
+                    <label>Радиус цилиндра (R):</label>
+                    <input type="number" id="r" placeholder="Введите R">
+                </div>
+                <div class="input-group">
+                    <label>Объём жидкости (M):</label>
+                    <input type="number" id="m" placeholder="Введите M">
+                </div>
+                <button id="checkBtn">Проверить</button>
+                <div id="result"></div>
+            </div>
+        </div>
+  <script src="zadacha.js"></script>
+</body>
+</html>
