@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Форма набора помощников</title>
+        <link rel="stylesheet" href="form.css" />
+    </head>
+    <body>
+        <h1><a href="index.html">крючком с теплом</a></h1>
+        <h2><i>магазин вязаных игрушек</i></h2>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">о создателе</a></li>
+                    <li><a href="catalog.html">каталог</a></li>
+                    <li><a href="table.html">бренд</a></li></a></li>
+                    <li class="here"><a href="form.html">работа</a></li>
+                    <li><a href="zadacha.html">алгоритмы</a></li>
+                    <li><a href="dom.html">паспорт</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h3>Форма набора помощников</h3>
+        <!--<form action="../../cgi-bin/form_action.py" method='get' target='_self'>-->
+        <!--<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'>-->
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <p>фамилия: <input type="Text" name="last_name" size=20  placeholder="петрова"></p>
+            <p>имя: <input type="Text" name="last_name" size=20  placeholder="анна"></p>
+            <p>возраст: <input type="Number" name="age" size=20 placeholder="0"></p>
+            <p>место проживания:
+                <input type="Radio" name="place" value="Moscow">Москва
+                <input type="Radio" name="place" value="SaintP" checked >Санкт-Петербург
+            </p>
+            <p>вяжу:
+                <input type="Checkbox" name="experience"  value="10" checked>крючком
+                <input type="Checkbox"  name="experience"   value="20" checked>спицами
+            </p>
+            <p>есть ли опыт участия в маркетах?
+                <select name="languages">
+                    <option value="да">да</option>
+                    <option value="нет">нет</option>
+            </select>
+            </p>
+            <p>ключ-пароль: <input type="password" name="key" size=25 placeholder="если вы пришли от кого-то"></p>
+            <p> дополнительная информация:
+                <br>
+                <textarea cols="50" rows=4 name="textarea" placeholder="для заметок"></textarea>
+            </p>
+            <p>где с вами можно связаться?
+                <input type="Radio" name="sn" value="tg">telegram
+                <input type="Radio" name="sn" value="vk" checked >вконтакте
+            </p>
+            <p>ник в телеграме/вконтакте: <input type="Text" name="last_name" size=20  placeholder="@petrova.a"></p>
+                <input type="hidden" name="function"  value="page">
+                <input type="hidden" name="page_id"  value="3">
+            <p>
+                <input type="Reset"  name="Reset"  value="Обновить">
+                <input type="Submit" name="submit"  value="Отправить">
+                </p>
+        </form>
+    </body>
+</html>
