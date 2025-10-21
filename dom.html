@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>warm hook store</title>
+    <link rel="stylesheet" href="dom.css" />
+  </head>
+  <body>
+    <h1><a href="index.html">крючком с теплом</a></h1>
+    <h2><i>магазин вязаных игрушек</i></h2>
+
+    <div>
+      <nav class="navi">
+        <ul class="mul">
+          <li class="mlist"><a href="index.html">о создателе</a></li>
+          <li class="mlist"><a href="catalog.html">каталог</a></li>
+          <li class="mlist"><a href="table.html">бренд</a></li>
+          <li class="mlist"><a href="form.html">работа</a></li>
+          <li class="mlist"><a href="zadacha.html">алгоритмы</a></li>
+          <li class="mlist here"><a href="dom.html">паспорт</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="zagolovok"><h3>изменяем кириллицу на латиницу по клику</h3></div>
+    <div class="maincont">
+      <div class="mainblock">
+        <div class="t1" id="passport-root">
+          <div class="page1">
+            <div class="vidan" id="issuer">УПРАВЛЕНИЕМ ВНУТРЕННИХ ДЕЛ ГОР.КУРГАНА</div>
+            <div class="dates">
+              <div class="datav" id="issue-date">11.10.25</div>
+              <div class="codep" id="unit-code">451-001</div>
+            </div>
+            <div class="podpisi">
+              <div class="podpisv">
+                <img class="podpisvimg" id="signature-chief" src="img/pv.png" height="100" width="170" alt="подпись начальника"/>
+              </div>
+              <div class="podpis">
+                <img class="podpisimg" id="signature-owner" src="img/p.png" height="100" width="170" alt="подпись владельца"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="page2">
+            <div class="fotop" id="photo"></div>
+            <div class="infop">
+              <div class="f" id="surname">САЛОМАТОВА</div>
+              <div class="io" id="name">УЛЬЯНА</div>
+              <div class="io" id="patronymic">ВАЛЕРЬЕВНА</div>
+              <div class="dates">
+                <div class="pol" id="gender">ЖЕН.</div>
+                <div class="datar" id="birth-date">15.11.2006</div>
+              </div>
+              <div class="gorod" id="birth-place">ГОР.САНКТ-ПЕТЕРБУРГ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="actions">
+      <button class="btn" id="toggle-translit" aria-pressed="false">включить латиницу</button>
+    </div>
+    <div class="zagolovok"><h3>dom_js. считываем информацию из dom</h3></div>
+    <div class="maincont"><div class="mainblock"><img src="img/domscrin.png" class="domscrin"/></div></div>
+    <script src="dom.js"></script>
+  </body>
+</html>
