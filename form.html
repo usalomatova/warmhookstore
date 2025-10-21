@@ -21,9 +21,9 @@
             </nav>
         </div>
         <h3>Форма набора помощников</h3>
-        <form action="../../cgi-bin/form_action.py" method='get' target='_self'> 
-        <form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'> 
-        <form action="https://google.com" target="_blank" method="get" align="center">
+        <!--<form action="../../cgi-bin/form_action.py" method='get' target='_self'>--> 
+        <!--<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'>--> 
+        <form action="https://google.com" target="_blank" method="get">
             <p>фамилия: <input type="Text" name="last_name" size=20  placeholder="петрова"></p>
             <p>имя: <input type="Text" name="last_name" size=20  placeholder="анна"></p>
             <p>возраст: <input type="Number" name="age" size=20 placeholder="0"></p>
@@ -54,12 +54,13 @@
                 <input type="hidden" name="function"  value="page">
                 <input type="hidden" name="page_id"  value="3">
             <p>
-                <input type="Reset"  name="Reset"  value="Обновить">
-                <input type="submit" id="send-btn" value="Отправить резюме">
+                <input type="Reset" name="Reset" value="Обновить">
+                <input type="Submit" name="submit" value="Отправить">
             </p>
         </form>
     </body>
 </html>
+
 
 
 
