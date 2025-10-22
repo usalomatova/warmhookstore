@@ -54,12 +54,6 @@ body {
 .here{
     font-weight: bold;
 }
-/*
-img {
-    border-radius: 50px;
-   
-}
-*/
 
 a{
     text-decoration: none;
@@ -202,4 +196,5 @@ a{
 .domscrin{
   height: 606px;
   width: 1279,3px;
+
 }
